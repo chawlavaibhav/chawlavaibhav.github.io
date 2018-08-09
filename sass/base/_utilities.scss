@@ -1,0 +1,14 @@
+.u-container-wide {
+	margin: 0 auto;
+	max-width: $width-large; 
+}
+
+.u-container-full-height{
+	height: 100%;
+}
+
+.u-container{
+	position: relative;
+	margin: 0 auto;
+	max-width: $width-small;
+}

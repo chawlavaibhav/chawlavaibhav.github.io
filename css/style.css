@@ -1,0 +1,208 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: #333333; }
+
+.heading-primary {
+  font-family: "Arvo", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 200; }
+
+.heading-secondary {
+  font-family: "Arvo", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 400; }
+
+.paragraph-header {
+  line-height: 2.5rem; }
+
+.u-container-wide {
+  margin: 0 auto;
+  max-width: 110rem; }
+
+.u-container-full-height {
+  height: 100%; }
+
+.u-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 80rem; }
+
+.navbar {
+  background-color: #fff;
+  height: 6rem;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
+  z-index: 10; }
+  .navbar ul {
+    list-style: none;
+    float: right;
+    height: 100%; }
+    .navbar ul li {
+      display: inline-block;
+      height: 100%; }
+      .navbar ul li a {
+        display: inline-block;
+        height: 100%;
+        padding: 2rem 1rem;
+        text-decoration: none;
+        color: #333333;
+        letter-spacing: -0.1rem;
+        position: relative; }
+        .navbar ul li a:hover::after {
+          transform: translateY(0.2rem); }
+        .navbar ul li a:hover {
+          color: #737373; }
+        .navbar ul li a::after {
+          content: "";
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: #b3b3b3;
+          z-index: -1; }
+      .navbar ul li:last-child {
+        margin-right: 2rem; }
+
+.logo-box {
+  height: 100%;
+  display: inline-block;
+  position: relative; }
+  .logo-box .logo {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%); }
+
+.row {
+  max-width: 80rem;
+  margin: 0 auto;
+  position: relative;
+  content: "";
+  display: table;
+  clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+  .row .col-1-of-2 {
+    width: calc((100% - 1rem)/2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 1rem*2)/3); }
+  .row .col-2-of-3 {
+    width: calc(2*(100% - 1rem*2)/3 + 1rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 1rem*3)/4); }
+  .row .col-2-of-4 {
+    width: calc(  2*((100% - 1rem*3)/4) + 1rem); }
+  .row .col-3-of-4 {
+    width: calc(  3*((100% - 1rem*3)/4) + 2*1rem); }
+
+.header {
+  z-index: -100;
+  background-color: #f2f2f2;
+  height: 33rem;
+  position: relative; }
+  .header__text-box {
+    padding-left: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    color: #333333;
+    width: 75%; }
+  .header__image-box {
+    position: absolute;
+    top: 50%;
+    left: 87.5%;
+    width: 25%;
+    transform: translateY(-50%) translateX(-50%); }
+
+.section__heading {
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 3rem; }
+
+.section-divider {
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #f2f2f2; }
+
+.section-paragraph {
+  margin-bottom: 2rem; }
+
+.section-working__row {
+  height: 30rem;
+  position: relative;
+  margin-bottom: 2rem; }
+
+.section-working__step {
+  width: 25rem;
+  height: 100%;
+  position: absolute; }
+  .section-working__step--img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+  .section-working__step--desc {
+    position: absolute;
+    bottom: 2rem;
+    text-align: center; }
+  .section-working__step--1 {
+    left: 12%; }
+  .section-working__step--2 {
+    right: 12%; }
+  .section-working__step--3 {
+    left: 16%; }
+  .section-working__step--4 {
+    right: 16%; }
+
+.section-mission {
+  position: relative; }
+  .section-mission__row {
+    height: 20rem;
+    position: relative;
+    margin-bottom: 2rem; }
+  .section-mission__text-box {
+    left: 25%;
+    width: 75%;
+    padding-left: 2rem;
+    position: absolute; }
+  .section-mission__img-box {
+    top: -5rem;
+    width: 25%;
+    position: absolute; }
+
+.test-block {
+  background-color: yellow;
+  border: 1px solid red;
+  border-right: 2px solid green;
+  height: 10rem;
+  width: 20rem; }
+  .test-block-1 {
+    width: 40rem;
+    height: 30rem; }
+  .test-block-2 {
+    width: 20rem;
+    height: 17rem; }
+  .test-block-3 {
+    width: 20rem;
+    height: 17rem; }
+  .test-block-4 {
+    width: 30rem;
+    height: 23rem; }
+  .test-block-5 {
+    width: 30rem;
+    height: 23rem; }
