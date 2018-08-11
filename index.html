@@ -4,6 +4,7 @@
 	<title>Waaris</title>
 	<link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/header-image.png" />
 </head>
 <body>
 	<nav class="navbar">
@@ -162,26 +163,33 @@
 					<p>waarissolutions@gmail.com</p>
 					<p>+91-9582009957</p>
 					<div class = "section-contact__info--links-sm">
-						<a href=""><img src="img/facebook.png"></a>
-						<a href=""><img src="img/youtube.png"></a>
+						<a href="https://www.facebook.com/waarisolutions" target="_blank">
+							<img src="img/facebook.png">
+						</a>
+						<a href="https://www.youtube.com/channel/UCFPulXbB79S3vHWSf5g6Hqw" target="_blank">
+							<img src="img/youtube.png">
+						</a>
 					</div>
 				</div>
 			</div>
 			<div class="section-contact__feedback">
 				<h4 class = "section-contact__feedback--heading">drop us a message</h4>
+				<form action = "https://formspree.io/waarisolutions@gmail.com" method = "POST">
 					<div class="section-contact__feedback--form-group">
 						<label>name</label>
-						<input type="text" name="">
+						<input type="text" name="name">
 					</div>
 					<div class="section-contact__feedback--form-group">
 						<label>email</label>
-						<input type="text" name="">
+						<input type="text" name="email">
 					</div>
 					<div class="section-contact__feedback--form-group">
 						<label>message</label>
-						<textarea class = "section-contact__feedback--message"></textarea>
+						<textarea class = "section-contact__feedback--message" name = "message"></textarea>
 					</div>
 					<button class="section-contact__feedback--submit-btn">SEND</button>
+				</form>
+					
 			</div>
 		</div>
 		</div>
